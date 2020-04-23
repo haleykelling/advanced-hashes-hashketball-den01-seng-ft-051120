@@ -172,6 +172,7 @@ def player_numbers(team)
       home_or_away[1][:players].each do |player_info|
         player_numbers_array << player_info[:number]
       end
+      player_numbers_array
     end
   end
 end
