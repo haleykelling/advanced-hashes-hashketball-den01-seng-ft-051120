@@ -168,12 +168,12 @@ end
 def player_numbers(team)
   game_hash.each do |home_or_away|
     if home_or_away[1][:team_name] == team
-binding.pry
       player_numbers_array = []
       home_or_away[1][:players].each do |player_info|
         player_numbers_array << player_info[:number]
       end
       player_numbers_array
+      binding.pry
     end
   end
 end
