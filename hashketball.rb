@@ -130,9 +130,7 @@ end
 
 # Write code here
 def num_points_scored(player)
-  game_hash.each do |team|
-    p team[:players]
-  end
+  p game_hash
 end
 
 num_points_scored("Kemba Walker")
