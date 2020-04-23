@@ -197,7 +197,9 @@ def big_shoe_rebounds
       end
       biggest_shoe_player
     end
+    biggest_shoe_player
   end
+  biggest_shoe_player
   game_hash.each do |home_or_away|
     home_or_away[1][:players].each do |player_info|
       if player_info[:player_name] == biggest_shoe_player
