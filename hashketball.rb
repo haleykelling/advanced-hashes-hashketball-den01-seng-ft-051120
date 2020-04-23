@@ -188,10 +188,10 @@ def player_stats(player)
 end
 
 def biggest_shoe
+  biggest_shoe_size ||= 0
+  biggest_shoe_player ||= ""
   game_hash.each do |home_or_away|
     home_or_away[1][:players].each do |player_info|
-      biggest_shoe_size ||= 0
-      biggest_shoe_player ||= ""
       if player_info[:shoe] > biggest_shoe_size
         biggest_shoe_size = player_info[:shoe]
         biggest_shoe_player = player_info[:player_name]
