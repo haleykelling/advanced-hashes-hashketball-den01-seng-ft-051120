@@ -164,3 +164,14 @@ def team_names
   end
   teams
 end
+
+def player_numbers(team)
+  game_hash.each do |home_or_away|
+    if home_or_away[1][:team_name] == team
+      player_numbers_array = []
+      home_or_away[1][:players].each do |player_info|
+        player_numbers_array << player_info[:number]
+      end
+    end
+  end
+end
