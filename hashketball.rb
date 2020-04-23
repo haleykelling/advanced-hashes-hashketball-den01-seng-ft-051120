@@ -134,6 +134,7 @@ def num_points_scored(player)
     team.each do |team_attributes|
       team_attributes.each do |details|
         p details
+      end
     end
   end
 end
