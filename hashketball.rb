@@ -152,7 +152,7 @@ end
 def team_colors(team)
   game_hash.each do |home_or_away|
     if home_or_away[1][:team_name] == team
-      return team[1][:colors]
+      return home_or_away[1][:colors]
     end
   end
 end
