@@ -133,6 +133,7 @@ def num_points_scored(player)
   game_hash.each do
     player_stats = :players
     player_stats.find do |name|
+binding.pry
        name == player
     end
   end
