@@ -196,9 +196,9 @@ def biggest_shoe
         biggest_shoe_player = player_info[:player_name]
       end
       biggest_shoe_player
+      binding.pry 
     end
   end
-  return biggest_shoe_player
 end
 
 def big_shoe_rebounds
