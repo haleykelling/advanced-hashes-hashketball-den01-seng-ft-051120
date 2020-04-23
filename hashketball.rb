@@ -199,7 +199,6 @@ def biggest_shoe
       biggest_shoe_player
     end
   end
-  binding.pry
 end
 
 def big_shoe_rebounds
