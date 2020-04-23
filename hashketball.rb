@@ -134,3 +134,5 @@ def num_points_scored(player)
       return :players
   end
 end
+
+num_points_scored("Kemba Walker")
