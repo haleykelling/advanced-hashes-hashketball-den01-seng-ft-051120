@@ -139,4 +139,12 @@ def num_points_scored(player)
   end
 end
 
-num_points_scored("Kemba Walker")
+def shoe_size(player)
+  game_hash.each do |team|
+    team[1][:players].each do |player_info|
+      if player_info[:player_name] == player
+        return player_info[:shoe]
+      end
+    end
+  end
+end
