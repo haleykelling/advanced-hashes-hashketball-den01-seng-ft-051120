@@ -133,5 +133,6 @@ def num_points_scored(player)
       if :players[:player_name] == player
         return :points
       end
+    end
   end
 end
