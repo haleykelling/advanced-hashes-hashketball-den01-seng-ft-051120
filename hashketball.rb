@@ -132,9 +132,7 @@ end
 def num_points_scored(player)
   game_hash.each do |team|
     team.each do |team_attributes|
-      team_attributes.each do |details|
-        p details
-      end
+      p "these are #{team_attributes}"
     end
   end
 end
