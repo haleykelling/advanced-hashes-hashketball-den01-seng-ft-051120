@@ -131,7 +131,7 @@ end
 # Write code here
 def num_points_scored(player)
   game_hash.each do |team|
-    p game_hash[team][:players]
+    p team[:players]
   end
 end
 
